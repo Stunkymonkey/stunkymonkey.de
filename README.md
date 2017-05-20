@@ -8,4 +8,4 @@ Follow me on:
 - [GitHub](https://github.com/Stunkymonkey)
 - [Twitter](https://twitter.com/Stunkymonkey1)
 
-Feel free to contact me via [Mail](#)
+Feel free to contact me via [Mail]("website" + "ed.yeknomyknuts@".split("").reverse().join(""))
