@@ -1,0 +1,60 @@
+baseURL = "https://www.stunkymonkey.de/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[params]
+	dateform        = "2. Jan 2006"
+	dateformShort   = "2. Jan"
+	dateformNum     = "2006-01-02"
+	dateformNumTime = "2006-01-02 15:04 -0700"
+
+	# Metadata
+	description = "Homepage and blog of Felix Bühler"
+	keywords = "homepage, blog, computer, science, informatics, development, programming"
+	images = ["/img/profile-picture.jpg"]
+
+	homeSubtitle = "Computer Scientist"
+	defaultTheme = "dark"
+
+	[params.logo]
+		logoText     = "$ cd /home/"
+		logoHomeLink = "/"
+
+	# Social icons
+	[[params.social]]
+		title = "email"
+		name = "email"
+		url = "mailto:website@stunkymonkey.de"
+	[[params.social]]
+		title = "twitter"
+		name = "twitter"
+		url = "https://twitter.com/Stunkymonkey1"
+	[[params.social]]
+		title = "github"
+		name = "github"
+		url = "https://github.com/Stunkymonkey"
+
+	[languages]
+		[languages.en]
+			title = "hello world;"
+			subtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
+			keywords = ""
+			copyright = "Felix Bühler"
+			readOtherPosts = "Read other posts"
+
+	[menu]
+		[[menu.main]]
+			identifier = "about"
+			name       = "About"
+			url        = "/about"
+#		[[menu.main]]
+#			identifier = "cv"
+#			name       = "CV"
+#			url        = "/cv"
+#		[[menu.main]]
+#			identifier = "posts"
+#			name       = "Posts"
+#			url        = "/posts"
