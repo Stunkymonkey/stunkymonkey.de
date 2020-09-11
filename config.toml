@@ -54,7 +54,7 @@ theme = "hello-friend-ng"
 #			identifier = "cv"
 #			name       = "CV"
 #			url        = "/cv"
-#		[[menu.main]]
-#			identifier = "posts"
-#			name       = "Posts"
-#			url        = "/posts"
+		[[menu.main]]
+			identifier = "posts"
+			name       = "Posts"
+			url        = "/posts"
