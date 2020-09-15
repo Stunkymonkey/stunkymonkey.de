@@ -16,7 +16,7 @@ theme = "hello-friend-ng"
 	keywords = "homepage, blog, computer, science, informatics, development, programming"
 	images = ["/img/profile-picture.jpg"]
 
-	homeSubtitle = "Computer Scientist"
+	homeSubtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
 	defaultTheme = "dark"
 
 	[params.logo]
