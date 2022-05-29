@@ -1,10 +1,11 @@
 ---
-Title: hello world;
+Title: About Me
 Draft: false
 ---
 
-{{< image src="/img/profile-picture.jpg" alt="profile picture" position="left" style="border-radius: 8px; height:200px;">}}
-
 I'm stunkymonkey. A guy from Stuttgart, Germany.
 
-At my free time I love to code.
+In my free time I like to work outside and help a friend in his vineyard. Additionally I like to bake my own bread with sourdough and program in several opensource projects.
+
+My main contributions are done in [nixpkgs](https://github.com/NixOS/nixpkgs/).
+

@@ -1,12 +1,13 @@
-# Hugo default output directory
-/public
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
 
-## OS Files
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
+# Executable may be added to repository
+hugo.exe
+hugo.darwin
+hugo.linux
 
-# OSX
-.DS_Store
+# Temporary lock file while building
+/.hugo_build.lock

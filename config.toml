@@ -1,6 +1,9 @@
 baseURL = "https://www.stunkymonkey.de/"
-languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+
 
 [permalinks]
   posts = "/posts/:year/:month/:title/"
@@ -14,37 +17,44 @@ theme = "hello-friend-ng"
 	# Metadata
 	description = "Homepage and blog of Felix Bühler"
 	keywords = "homepage, blog, computer, science, informatics, development, programming"
-	images = ["/img/profile-picture.jpg"]
+	avatarURL = "/profile-picture.jpg"
 
 	homeSubtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
-	defaultTheme = "dark"
+	colorScheme = "auto"
 
 	[params.logo]
-		logoText     = "$ cd /home/"
+		logoText     = "Felix Bühler"
 		logoHomeLink = "/"
 
 	# Social icons
 	[[params.social]]
-		title = "email"
-		name = "email"
-		url = "mailto:website@stunkymonkey.de"
-	[[params.social]]
-		title = "twitter"
-		name = "twitter"
-		url = "https://twitter.com/Stunkymonkey1"
-	[[params.social]]
-		title = "github"
-		name = "github"
+		name = "Github"
+		icon = "fa fa-github"
+		weight = 1
 		url = "https://github.com/Stunkymonkey"
+	[[params.social]]
+	  name = "Gitlab"
+	  icon = "fa fa-gitlab"
+	  weight = 2
+	  url = "https://gitlab.com/Stunkymonkey"
+	[[params.social]]
+		name = "Email"
+		icon = "fa fa-envelope"
+		url = "mailto:website@stunkymonkey.de"
+		weight = 5
+	[[params.social]]
+		name = "Twitter"
+		icon = "fa fa-twitter"
+		url = "https://twitter.com/Stunkymonkey1"
+		weight = 8
 
 	[languages]
 		[languages.en]
-			title = "hello world;"
+			title = "Felix Bühler"
 			subtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
 			keywords = ""
 			copyright = "Felix Bühler"
 			readOtherPosts = "Read other posts"
-
 	[menu]
 		[[menu.main]]
 			identifier = "about"
@@ -55,6 +65,10 @@ theme = "hello-friend-ng"
 #			name       = "CV"
 #			url        = "/cv"
 		[[menu.main]]
-			identifier = "posts"
-			name       = "Posts"
-			url        = "/posts"
+			identifier = "blog"
+			name       = "Blog"
+			url        = "/blog"
+		[[menu.main]]
+			identifier = "projects"
+			name       = "Projects"
+			url        = "/projects"
