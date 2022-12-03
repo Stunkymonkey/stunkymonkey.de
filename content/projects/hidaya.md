@@ -1,5 +1,5 @@
 +++
-title = "Hidaya: a MediaElch-export-theme"
+title = "hidaya: a MediaElch-export-theme"
 description = "i was not happy with the provided MediaElch-themes, so I build my own"
 tags = [
   "mediaelch",
