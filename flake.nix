@@ -43,16 +43,19 @@
               src = self;
               nativeBuildInputs = [
                 pkgs.hugo
-                # pkgs.asciidoctor
               ];
+
               HUGO_THEMESDIR = self'.packages.themes;
+
               buildPhase = ''
                 runHook preBuild
                 mkdir -p $out
                 hugo --minify --destination $out
                 runHook postBuild
               '';
+
               dontInstall = true;
+
               meta = with pkgs.lib; {
                 description = "My awesome homepage";
                 license = licenses.mit;
