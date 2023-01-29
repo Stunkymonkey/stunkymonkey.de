@@ -42,11 +42,6 @@ enableEmoji = true
 		icon = "fa fa-envelope"
 		url = "mailto:website@stunkymonkey.de"
 		weight = 5
-	[[params.social]]
-		name = "Twitter"
-		icon = "fa fa-twitter"
-		url = "https://twitter.com/Stunkymonkey1"
-		weight = 8
 
 	[languages]
 		[languages.en]
