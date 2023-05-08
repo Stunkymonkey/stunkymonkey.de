@@ -39,7 +39,7 @@ Due to work I have to find installation solutions where I can not except anythin
 - **@-symbol** can cause weird behaviours:\
   It is for example not allowed to be in the module description. It simply terminates the description string. The Highlighters of most programms do not respect this termination.
 - **`Get-Credential`-dialog**:\
-  Any enter press will close the windows even if you want to select the vlaue of a dropdown menu
+  Any enter press will close the windows even if you want to select the value of a dropdown menu
 - **Folder-Auto-Completion**:\
   When changing the directory with `Set-Location` it iterates through all folders instead of showing all matching folder, so i can type the correct one.
 
