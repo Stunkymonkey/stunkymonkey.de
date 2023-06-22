@@ -1,6 +1,6 @@
 +++
 title = "Improve an ANET A8"
-description = "report all the improvments I did to the ANET A8 3D-printer"
+description = "report all the improvements I did to the ANET A8 3D-printer"
 tags = [
   "diy",
   "3d-printing",

@@ -111,7 +111,7 @@ So fixing the first board was the task for the rest of the day.
 
 Next up we decided continue each ourselves. The building was complete, but the software for the computer was not. Therefore we split up the work. I was doing the work to send the data via wifi. Friedrich did the beautiful website to verify for us, that the data we are sending is correct. Which can be seen below:
 
-![the web view to check the input controlls](web-view.png)
+![the web view to check the input controls](web-view.png)
 
 In the end, both of our quadcopters are flying. We did not expect, that the controls were this responsive. We were used to fully sliding the stick to one side from gaming. Therefore we had to learn a lot to improve our skills. 
 
