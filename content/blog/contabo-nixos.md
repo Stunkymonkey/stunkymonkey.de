@@ -96,3 +96,7 @@ after rebooting make sure the nix-channels are up-to-date
 nix-channel --add https://nixos.org/channels/nixos-21.11 nixos
 nixos-rebuild switch --upgrade
 ```
+
+# Update (2023-09-02):
+
+I reccomend using [nixos-anywhere](https://github.com/numtide/nixos-anywhere/) to install a new VPS.
