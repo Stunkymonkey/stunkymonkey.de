@@ -46,10 +46,11 @@ enableEmoji = true
 	[languages]
 		[languages.en]
 			title = "Felix Bühler"
-			subtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
-			keywords = ""
 			copyright = "Felix Bühler"
-			readOtherPosts = "Read other posts"
+	    [languages.en.params]
+				keywords = ""
+				subtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
+				readOtherPosts = "Read other posts"
 	[menu]
 		[[menu.main]]
 			identifier = "about"
