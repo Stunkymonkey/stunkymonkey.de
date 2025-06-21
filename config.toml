@@ -38,6 +38,11 @@ enableEmoji = true
 	  weight = 2
 	  url = "https://gitlab.com/Stunkymonkey"
 	[[params.social]]
+	  name = "LinkedIn"
+	  icon = "fa fa-linkedin"
+	  weight = 2
+	  url = "https://www.linkedin.com/in/felix-b%C3%BChler-5a27131a0/"
+	[[params.social]]
 		name = "Email"
 		icon = "fa fa-envelope"
 		url = "mailto:website@stunkymonkey.de"
