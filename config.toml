@@ -6,7 +6,7 @@ enableEmoji = true
 
 
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+	posts = "/posts/:year/:month/:title/"
 
 [params]
 	dateform        = "2. Jan 2006"
@@ -33,15 +33,15 @@ enableEmoji = true
 		weight = 1
 		url = "https://github.com/Stunkymonkey"
 	[[params.social]]
-	  name = "Gitlab"
-	  icon = "fa fa-gitlab"
-	  weight = 2
-	  url = "https://gitlab.com/Stunkymonkey"
+		name = "Gitlab"
+		icon = "fa fa-gitlab"
+		weight = 2
+		url = "https://gitlab.com/Stunkymonkey"
 	[[params.social]]
-	  name = "LinkedIn"
-	  icon = "fa fa-linkedin"
-	  weight = 2
-	  url = "https://www.linkedin.com/in/felix-b%C3%BChler-5a27131a0/"
+		name = "LinkedIn"
+		icon = "fa fa-linkedin"
+		weight = 2
+		url = "https://www.linkedin.com/in/felix-b%C3%BChler-5a27131a0/"
 	[[params.social]]
 		name = "Email"
 		icon = "fa fa-envelope"
@@ -52,7 +52,7 @@ enableEmoji = true
 		[languages.en]
 			title = "Felix Bühler"
 			copyright = "Felix Bühler"
-	    [languages.en.params]
+		[languages.en.params]
 				keywords = ""
 				subtitle = "I'm stunkymonkey. A guy from Stuttgart, Germany. At my free time I love to code."
 				readOtherPosts = "Read other posts"
